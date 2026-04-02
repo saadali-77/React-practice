@@ -1,9 +1,10 @@
 
 import './App.css'
 import Button from './Button'
+import { Stundentprops } from './Stundentprops'
 function App(){
   return (<>
-  <Button/>
+ <Stundentprops name='saad' age= {20} isStudent={true}/>
   
   </>)
 }
